@@ -13,6 +13,7 @@
 		0B951C41283A991D0037866F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B951C3F283A991D0037866F /* Main.storyboard */; };
 		0B951C43283A991F0037866F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B951C42283A991F0037866F /* Assets.xcassets */; };
 		0B951C46283A991F0037866F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B951C44283A991F0037866F /* LaunchScreen.storyboard */; };
+		0B951C4E283A9A6A0037866F /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B951C4D283A9A6A0037866F /* Montserrat-VariableFont_wght.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0B951C42283A991F0037866F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B951C45283A991F0037866F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B951C47283A991F0037866F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B951C4D283A9A6A0037866F /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		0B951C38283A991D0037866F /* autoLayout and Stack view */ = {
 			isa = PBXGroup;
 			children = (
+				0B951C4D283A9A6A0037866F /* Montserrat-VariableFont_wght.ttf */,
 				0B951C39283A991D0037866F /* AppDelegate.swift */,
 				0B951C3B283A991D0037866F /* SceneDelegate.swift */,
 				0B951C3D283A991D0037866F /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B951C4E283A9A6A0037866F /* Montserrat-VariableFont_wght.ttf in Resources */,
 				0B951C46283A991F0037866F /* LaunchScreen.storyboard in Resources */,
 				0B951C43283A991F0037866F /* Assets.xcassets in Resources */,
 				0B951C41283A991D0037866F /* Main.storyboard in Resources */,

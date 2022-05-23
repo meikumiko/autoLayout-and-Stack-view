@@ -1,24 +1,210 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6Pe-g7-3Jd">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-VariableFont_wght.ttf">
+            <string>MontserratRoman-ExtraBold</string>
+            <string>MontserratRoman-Medium</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="zVm-Ut-mWO">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="gGC-41-94x" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="adU-H5-pLz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding-image" translatesAutoresizingMaskIntoConstraints="NO" id="CaY-57-VlK">
+                                <rect key="frame" x="33" y="92" width="309" height="309"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="CaY-57-VlK" secondAttribute="height" multiplier="1:1" id="Os7-pG-REd"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nGK-fa-0c3">
+                                <rect key="frame" x="57.333333333333343" y="461" width="260.33333333333326" height="88"/>
+                                <string key="text">Contra 
+wireframe kit</string>
+                                <fontDescription key="fontDescription" name="MontserratRoman-ExtraBold" family="Montserrat" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQ7-9M-4SY">
+                                <rect key="frame" x="21.333333333333343" y="573" width="332.66666666666663" height="77"/>
+                                <string key="text">Wireframe is still important for 
+ideation. It will help you to 
+quickly test idea.</string>
+                                <fontDescription key="fontDescription" name="MontserratRoman-Medium" family="Montserrat" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uoi-Ch-HDf">
+                                <rect key="frame" x="24" y="703" width="157" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Joc-s4-ZgW"/>
+                                    <constraint firstAttribute="width" constant="157" id="gM9-fX-UT8"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Skip" cornerStyle="large">
+                                    <backgroundConfiguration key="background" strokeWidth="2">
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="MontserratRoman-ExtraBold" family="Montserrat" pointSize="21"/>
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iqz-dk-S0z">
+                                <rect key="frame" x="194" y="703" width="157" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="gGE-ol-pxh"/>
+                                    <constraint firstAttribute="width" constant="157" id="hd6-Le-DdO"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Next" cornerStyle="large">
+                                    <backgroundConfiguration key="background" strokeWidth="2">
+                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </backgroundConfiguration>
+                                    <fontDescription key="titleFontDescription" name="MontserratRoman-ExtraBold" family="Montserrat" pointSize="21"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yUx-ds-2q4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yUx-ds-2q4" firstAttribute="bottom" secondItem="iqz-dk-S0z" secondAttribute="bottom" constant="15" id="0uj-QA-rsA"/>
+                            <constraint firstItem="nGK-fa-0c3" firstAttribute="centerX" secondItem="CaY-57-VlK" secondAttribute="centerX" id="3NZ-TP-QED"/>
+                            <constraint firstItem="bQ7-9M-4SY" firstAttribute="top" secondItem="nGK-fa-0c3" secondAttribute="bottom" constant="24" id="5h2-5b-XBh"/>
+                            <constraint firstItem="CaY-57-VlK" firstAttribute="centerX" secondItem="adU-H5-pLz" secondAttribute="centerX" id="DWz-9h-as0"/>
+                            <constraint firstItem="CaY-57-VlK" firstAttribute="centerY" secondItem="adU-H5-pLz" secondAttribute="centerY" constant="-159.5" id="QNh-Ha-cJm"/>
+                            <constraint firstItem="yUx-ds-2q4" firstAttribute="bottom" secondItem="uoi-Ch-HDf" secondAttribute="bottom" constant="15" id="X7w-C4-0RB"/>
+                            <constraint firstItem="uoi-Ch-HDf" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yUx-ds-2q4" secondAttribute="leading" constant="24" id="ac5-bH-rlO"/>
+                            <constraint firstItem="yUx-ds-2q4" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="iqz-dk-S0z" secondAttribute="trailing" constant="24" id="bb0-20-hQS"/>
+                            <constraint firstItem="iqz-dk-S0z" firstAttribute="leading" secondItem="uoi-Ch-HDf" secondAttribute="trailing" constant="13" id="dCe-gG-Pf4"/>
+                            <constraint firstItem="uoi-Ch-HDf" firstAttribute="centerX" secondItem="adU-H5-pLz" secondAttribute="centerX" constant="-85" id="goo-Rz-1YL"/>
+                            <constraint firstItem="CaY-57-VlK" firstAttribute="leading" secondItem="yUx-ds-2q4" secondAttribute="leading" constant="33" id="iBF-zg-EKl"/>
+                            <constraint firstItem="nGK-fa-0c3" firstAttribute="top" secondItem="CaY-57-VlK" secondAttribute="bottom" constant="60" id="olf-uP-rlA"/>
+                            <constraint firstItem="iqz-dk-S0z" firstAttribute="centerX" secondItem="adU-H5-pLz" secondAttribute="centerX" constant="85" id="r7N-dQ-FeH"/>
+                            <constraint firstItem="yUx-ds-2q4" firstAttribute="trailing" secondItem="CaY-57-VlK" secondAttribute="trailing" constant="33" id="zlo-aO-RA8"/>
+                            <constraint firstItem="bQ7-9M-4SY" firstAttribute="centerX" secondItem="CaY-57-VlK" secondAttribute="centerX" id="zww-dR-Hwk"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EKh-ms-k5I" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1620" y="83"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oFP-fr-D6t">
+            <objects>
+                <viewController id="6Pe-g7-3Jd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p5q-Hj-QAu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="46" translatesAutoresizingMaskIntoConstraints="NO" id="6PT-8V-pMs">
+                                <rect key="frame" x="20" y="84" width="335" height="674"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="f8t-wx-VgW">
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="568"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding-image" translatesAutoresizingMaskIntoConstraints="NO" id="MLH-V2-poc">
+                                                <rect key="frame" x="0.0" y="0.0" width="335" height="335"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" secondItem="MLH-V2-poc" secondAttribute="height" multiplier="1:1" id="yKI-QU-xor"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yOH-To-BWx">
+                                                <rect key="frame" x="0.0" y="360" width="335" height="208"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afi-Xj-aCo">
+                                                        <rect key="frame" x="37.333333333333343" y="0.0" width="260.33333333333326" height="104"/>
+                                                        <string key="text">Contra 
+wireframe kit</string>
+                                                        <fontDescription key="fontDescription" name="MontserratRoman-ExtraBold" family="Montserrat" pointSize="36"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZfR-uL-es3">
+                                                        <rect key="frame" x="1.3333333333333428" y="104" width="332.66666666666663" height="104"/>
+                                                        <string key="text">Wireframe is still important for 
+ideation. It will help you to 
+quickly test idea.</string>
+                                                        <fontDescription key="fontDescription" name="MontserratRoman-Medium" family="Montserrat" pointSize="21"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="13" translatesAutoresizingMaskIntoConstraints="NO" id="Pho-Cu-HkJ">
+                                        <rect key="frame" x="0.0" y="614" width="335" height="60"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfy-C4-e1u">
+                                                <rect key="frame" x="0.0" y="0.0" width="161" height="60"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Skip" cornerStyle="large">
+                                                    <backgroundConfiguration key="background" strokeWidth="2">
+                                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" name="MontserratRoman-ExtraBold" family="Montserrat" pointSize="21"/>
+                                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PS0-JL-9I5">
+                                                <rect key="frame" x="174" y="0.0" width="161" height="60"/>
+                                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Next" cornerStyle="large">
+                                                    <backgroundConfiguration key="background" strokeWidth="2">
+                                                        <color key="strokeColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </backgroundConfiguration>
+                                                    <fontDescription key="titleFontDescription" name="MontserratRoman-ExtraBold" family="Montserrat" pointSize="21"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="7DV-mA-iMH"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="sUg-KJ-hZD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6PT-8V-pMs" firstAttribute="leading" secondItem="sUg-KJ-hZD" secondAttribute="leading" constant="20" id="Gds-33-ASA"/>
+                            <constraint firstItem="sUg-KJ-hZD" firstAttribute="bottom" secondItem="6PT-8V-pMs" secondAttribute="bottom" constant="20" id="NEb-48-nmb"/>
+                            <constraint firstItem="6PT-8V-pMs" firstAttribute="top" secondItem="sUg-KJ-hZD" secondAttribute="top" constant="40" id="UoM-gL-i2P"/>
+                            <constraint firstItem="sUg-KJ-hZD" firstAttribute="trailing" secondItem="6PT-8V-pMs" secondAttribute="trailing" constant="20" id="V7W-zn-npi"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yke-LQ-f80" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2466" y="83"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="onboarding-image" width="309" height="309"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
